@@ -1,0 +1,68 @@
+.footer{
+    position: absolute;
+    width: 1446px;
+    height: 146px;
+    left: 0px;
+    top:8400px;
+    background: #494949;
+    }
+    
+    .text{
+    position: absolute;
+    width: 700px;
+    height: 135px;
+    left: 780px;
+    top: 11px;
+    }
+    .text1{
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 121.5%;
+    /* or 34px */
+    letter-spacing: -0.025em;
+    text-transform: capitalize;
+    color: #F4F3F3;
+    }
+    
+    .text2{
+    position: absolute;
+    width: 400px;
+    height: 49.55px;
+    left: 123px;
+    top: 37px;
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121.5%;
+    /* or 29px */
+    letter-spacing: -0.025em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+    
+    .text3{
+    position: absolute;
+    width: 378px;
+    height: 68px;
+    left: 200px;
+    top: 68px;
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 121.5%;
+    letter-spacing: -0.025em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    }
+    
+    .logo{
+    position: absolute;
+    left: 1300px;
+    right: 2.57%;
+    top: 4.59px;
+    bottom: 10.39%;
+    }

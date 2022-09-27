@@ -1,0 +1,44 @@
+.signup{
+position: absolute;
+width: 760px;
+height: 115px;
+left: 55px;
+top: 6413px;
+}
+
+.text{
+font-family: 'Gotham Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 61px;
+color: #000000;
+}
+
+.text2{
+position: absolute;
+width: 658px;
+height: 89px;
+left: 5px;
+top: 79px;
+font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 121.5%;
+/* or 44px */
+letter-spacing: -0.025em;
+color: #000000;
+}
+
+.blue-box{
+    position: absolute;
+width: 808px;
+height: 633px;
+left: 307px;
+top: 272px;
+
+background: #6D83A6;
+border-radius: 10px;
+
+}

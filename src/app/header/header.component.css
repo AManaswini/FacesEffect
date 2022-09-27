@@ -1,0 +1,110 @@
+/* font-family: trade-gothic-next, sans-serif;
+font-style: normal;
+font-weight: 300; */
+@font-face {
+    font-family: TradeGothic;
+    src: url(../../assets/fonts/TradeGothicNextLTProLight.ttf);
+  }
+
+body{
+font-family: TradeGothic;
+letter-spacing:1.2px;
+background: #E5E5E5;
+
+}
+
+.logo{
+position: absolute;
+left: 1.87%;
+right: 91.96%;
+top: 12.9%;
+bottom: 12.1%;
+}
+
+.header{
+position: absolute;
+left: 0%;
+right: 0%;
+top: -0.02%;
+width:100%;
+height:99.99px;
+background: #000000;
+}
+
+.text{
+position: absolute;
+left: 34.99%;
+right: 33.82%;
+top: 29.59%;
+bottom: 27.55%;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+
+
+
+.bar-1{
+position: absolute;
+width: 46px;
+height: 0px;
+right:1%;
+top: 18px;
+border: 2px solid #FFFFFF;
+transform: rotate(-180deg);
+}
+
+.bar-2{
+position: absolute;
+width: 46px;
+height: 0px;
+right:1%;
+top: 34px;
+border: 2px solid #FFFFFF;
+transform: rotate(-180deg);
+}
+
+.bar-3{
+position: absolute;
+width: 46px;
+height: 0px;
+right:1%;
+top: 50px;
+border: 2px solid #FFFFFF;
+transform: rotate(-180deg);
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background: #E5E5E5;
+right:10px;
+font-family:TradeGothic ;
+top:30px;
+min-width: 160px;
+height:auto;
+font-size: 20px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.navbar .dropdown-content{display: block;}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+

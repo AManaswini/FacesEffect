@@ -1,0 +1,95 @@
+.page6{
+position: absolute;
+width: 760px;
+height: 115px;
+left: 55px;
+top: 5523px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 61px;
+color: #000000;
+
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.box1{
+position: absolute;
+width: 433px;
+height: 574px;
+top: 115px;
+background: #D9D9D9;
+}
+
+.img1{
+position: absolute;
+width: 433px;
+height: 406px;
+left: 0px;
+top: 0px;
+}
+
+.text1{
+position: absolute;
+width: 386px;
+height: 108px;
+left: 23px;
+top: 453px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 34px;
+color: #000000;
+
+}
+
+.box2,.box3{
+position: absolute;
+width: 433px;
+height: 574px;
+left: 450px;
+top: 115px;
+background: #D9D9D9;
+}
+.img1,.img2,.img3{
+    width: inherit;
+    height:auto;
+}
+.text2{
+position: absolute;
+width: 313px;
+height: 88px;
+left: 60px;
+top: 449px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 34px;
+color: #000000;
+
+}
+
+.box3{
+left:900px;
+}
+
+.text3{
+position: absolute;
+width: 382px;
+height: 92px;
+left: 25px;
+top: 453px;
+font-family:TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 34px;
+
+color: #000000;
+}

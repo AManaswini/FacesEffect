@@ -1,0 +1,67 @@
+.page2{
+position: absolute;
+width: 1440px;
+height: 462px;
+left: 0px;
+top: 1928px;
+opacity: 0.3;
+color: #000000;
+
+}
+
+body{
+  background: #E5E5E5;
+}
+
+.image{
+    width: inherit;
+    height:auto;
+  }
+
+.percent{
+position: absolute;
+width: 639px;
+height: 241px;
+left: 750px;
+top: 155px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 200px;
+line-height: 212px;
+text-transform: uppercase;
+color:black
+
+}
+
+.t1{
+position: absolute;
+width: 500px;
+height: 100px;
+left: 750px;
+top: 50px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 212px;
+text-transform: uppercase;
+color:black
+}
+
+.sub-text{
+
+position: absolute;
+width: 547px;
+height: 81px;
+left: 750px;
+top: 360px;
+font-family:TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 25px;
+
+color: #000000;
+
+}

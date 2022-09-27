@@ -1,0 +1,88 @@
+.text{
+position: absolute;
+width: 660px;
+height: 83px;
+left: 50px;
+top: 2632px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 61px;
+
+color: #000000;
+
+
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.sub-text{
+position: absolute;
+width: 660px;
+height: 165px;
+left: 50px;
+top: 2715px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.image{
+position: absolute;
+width: 842px;
+height: 717px;
+left: 620px;
+top: 2400px;
+}
+
+.imgg{
+width: inherit;
+height:auto;
+}
+
+.text-2{
+position: absolute;
+width: 1453px;
+height: 134px;
+left: -4px;
+top: 3108px;
+background: #6D83A6;
+
+}
+
+.blue-text{
+position: absolute;
+width: 545px;
+height: 105px;
+left: 311px;
+top: 29px;
+font-family:TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 61px;
+
+color: #000000;
+}
+
+.black-box{
+box-sizing: border-box;
+
+position: absolute;
+width: 616px;
+height: 75px;
+left: 480px;
+top: 29px;
+
+background: rgba(0, 0, 0, 0.5);
+border: 5px solid #000000;
+
+}

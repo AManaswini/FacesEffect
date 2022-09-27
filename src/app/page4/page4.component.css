@@ -1,0 +1,247 @@
+.page4{
+position: absolute;
+width: 1437px;
+height: 1230px;
+left: 0px;
+top: 3277px;
+
+}
+body{
+background: #E5E5E5;
+}
+.slider{
+position: absolute;
+width: 396px;
+height: 8.67px;
+left: 848px;
+top: 1400px;
+background: #7183A3;
+border-radius: 20px;
+
+}
+.imgg{
+position: relative;
+top: 0px;
+left: 0px;
+width: inherit;
+height:auto;
+z-index: 2;
+}
+
+.imgg2{
+position: absolute;
+opacity: 0.04;
+width: inherit;
+height:auto;
+top: 0px;
+left: 0px;
+}
+
+.text{
+position: absolute;
+width: 1340px;
+height: 110px;
+left: 50px;
+top: 30px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 38px;
+color: #000000;
+}
+
+.text2{
+position: absolute;
+width: 1340px;
+height: 95px;
+left: 50px;
+top: 729px;
+right:47px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 38px;
+color: #000000;
+
+}
+
+
+.link{
+position: absolute;
+width: 483px;
+height: 62px;
+left: 140px;
+top: 1168px;
+z-index: 10;
+}  
+
+.link1{
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 121.5%;
+letter-spacing: -0.025em;
+color: #000000;
+
+} 
+
+.arrow{
+position: absolute;
+top:1178px;
+left:84px;
+}
+
+.image{
+position: absolute;
+width: 286px;
+height: 357px;
+left: 908px;
+top: 927px;
+}
+
+.facial-bias{
+position: absolute;
+width: auto;
+height: 357px;
+left: 50px;
+top: 927px;
+font-family:TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 61px;
+
+color: #000000;
+}
+
+.sub-facial-bias{
+    position: absolute;
+    width: auto;
+    height: 357px;
+    left: 50px;
+    top: 1000px;
+    font-family: TradeGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 38px;
+color: #000000;
+}
+
+.undertext{
+position: absolute;
+width: 396px;
+left: calc(50% - 396px/2 + 340px);
+top: 1304px;
+bottom: 44.96%;
+
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.percent{
+position: absolute;
+width: 396px;
+left: calc(50% - 396px/2 + 341px);
+top: 1361px;
+bottom: 44.25%;
+
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.thin{
+position: absolute;
+width: 85px;
+left: calc(50% - 85px/2 + 68.5px);
+top: 1418px;
+bottom: 43.49%;
+
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+.full{
+position: absolute;
+width: 84.52px;
+left: calc(50% - 84.52px/2 + 580.26px);
+top: 1418px;
+bottom: 43.57%;
+
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+}
+
+
+
+.change{
+position: absolute;
+left: 927px;
+top: 1480px;
+width: 271px;
+height: 77px;
+background-color: #6D83A6;
+border: none;
+outline: none;
+
+
+
+
+}
+
+.btn-name{
+position: absolute;
+width: 171px;
+height: 32px;
+left: 50px;
+top: 23px;
+cursor: pointer;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+.mat-accent .mat-slider-thumb {
+height: 30px;
+width: 30px;
+background-color: green;
+border: solid 2px gray;
+bottom: -20px;
+right: -20px;
+}

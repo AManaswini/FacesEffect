@@ -1,0 +1,53 @@
+<html>
+<body>
+<div class="page4">
+    <img src="../../assets/Artboard 1 2.png" class="imgg">
+    <img src="../../assets/conny-schneider.jpg" class="imgg2">
+ 
+    <div class="text">
+        We needed a way to understand what the algorithm was seeing in a face.<br>So we built a facial transformation tool to communicate with the AI.
+    </div>
+    <div class="text2">
+        We exaggerated the facial features the algorithm noticed and then asked <br>study participants to name the difference between two transformed faces.
+    </div>
+    <div class="facial-bias">
+        Facial Bias   
+    </div>
+    <div class="sub-facial-bias">
+        We found that a gaunt thin face was<br>
+        more than half asredictive as a<br>
+        <span style="font-weight:bold">previous felony.</span>
+
+    </div>
+    <div class="link">
+        <a  class="link1" href="page2">
+            Learn more about how we made these <br>discoveries 
+        </a>
+    </div>
+    <div class="arrow">
+        <img src="../../assets/Vector.png">
+    </div>
+    <div >
+        <!-- <img src="../../assets/Screen Shot 2022-07-13 at 4.00 7.png"> -->
+        <img class="image" src="../../assets/{{folder}}/image_{{value}}.jpg">
+    </div>
+    <div class="undertext">
+        Release Likelihood
+    </div>
+    <div class="percent">
+       {{probabilityvalue}}%
+    </div>
+    <div class="thin">
+        Thin
+    </div>
+    <ngx-slider class="slider"  [(value)]="value" [options]="options" (mouseup)="changeimage()" ></ngx-slider>
+    
+    <!-- <nz-slider nzMin="0" nzMax="99" nzStep="1" [(ngModel)]="value"></nz-slider> -->
+    <div class="full">
+        Full
+    </div>
+    <button class="change" type="button" (click)="changefolder()"><div class="btn-name">Next Face</div></button>
+ 
+</div>
+</body>
+</html>
