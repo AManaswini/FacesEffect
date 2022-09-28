@@ -1,7 +1,10 @@
 body{
   background: #E5E5E5;
 }
-
+@font-face {
+  font-family: TradeGothic;
+  src: url(../../assets/fonts/TradeGothicNextLTProLight.ttf);
+}
 .home{
   display: flex;
   flex-direction: column;
@@ -37,7 +40,7 @@ body{
   font-family: TradeGothic;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 2vw;
   line-height: 121.5%;
   letter-spacing: -0.025em;
   text-transform: uppercase;
@@ -50,7 +53,7 @@ body{
   font-family: TradeGothic;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 25px;
   text-align: center;
 
@@ -58,12 +61,17 @@ body{
 
 }
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .home{
-    height: 70vh;
+    height: 50vh;
   }
   .text-in-the-home{
     font-size: 10vw;
+  }
+  .sub-text{
+    font-size: 4vw;
+  }
+  .info{
+    font-size: 4vw;
   }
 }
