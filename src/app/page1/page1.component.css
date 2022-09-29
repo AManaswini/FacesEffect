@@ -1,67 +1,121 @@
 .page1{
-position: absolute;
-width: 516px;
-height: 182px;
-left: 50px;
-top: 1337px;
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 61px;
-color: #000000;
+width:100%;
+display: flex;
+flex-direction: row;
 
+
+}
+.text{
+    width:50%;
+    margin:25px;
+}
+.main-text{
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 61px;
+    color: #000000;
+    margin:30px 0;
 }
 
 body{
     background: #E5E5E5;
 }
 .sub-text{
-    position: absolute;
-    width: 603px;
-    height: 76px;
-    left: 50px;
-    top: 1508px;
-
     font-family: TradeGothic;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 2.5vw;
     line-height: 38px;
     
     color: #000000;
     
 }
 
+.box{
+    display: flex;
+    flex-direction: row;
+}
 .box-1{
-position: absolute;
+
 width: 323.81px;
 height: 434px;
-left: 730px;
-top: 1337px;
 background: #000000;
 border-radius: 20px;
+margin:0 15px;
 }
 
 .box-11{
-position: absolute;
-width: 307.81px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 95%;
 height: 247px;
-left: 8px;
-top: 8px;
+margin: 5px auto;
 background: #FFFFFF;
 border-radius: 16px;
 }
 
-.unknown{
-position: absolute;
-width: 278px;
-height: 345px;
-top: -28px;
+.box-12{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5px auto;
+width: 95%;
+height: 42px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.box-13{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5px auto;
+width: 95%;
+height: 111px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.decision-1{
+width: 95%;
+height: 26px;
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 700;
+font-size: 1vw;
+line-height: 120%;
+/* or 22px */
+letter-spacing: -0.02em;
+color: #000000;
+text-align: center;
+/* Inside auto layout */
 
 }
 
-.box-2{
+.info-1{
+
+width: 95%;
+height: 69px;
+
+font-family: TradeGothic;
+font-style: normal;
+font-weight: 800;
+font-size: 1vw;
+line-height: 128.2%;
+color: #000000;
+text-align: center;
+/* Inside auto layout */
+
+}
+
+
+.unknown{
+height: auto;
+}
+
+/* .box-2{
 
 position: absolute;
 width: 324.76px;
@@ -73,11 +127,9 @@ border-radius: 20px;
 }
 
 .box-21{
-position: absolute;
 width: 308.76px;
 height: 247px;
-left: 8px;
-top: 8px;
+
 background: #FFFFFF;
 border-radius: 16px;
 }
@@ -91,42 +143,8 @@ top: -23px;
 
 }
 
-.box-12{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-position: absolute;
-width: 307.81px;
-height: 42px;
-left: 8px;
-top: 265px;
-background: #FFFFFF;
-border-radius: 10px;
-}
 
-.decision-1{
-position:absolute;
-left:25px;
-right: 22.88px;
-top:8px;
-bottom:8px;
-width: 263px;
-height: 26px;
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 120%;
-/* or 22px */
-letter-spacing: -0.02em;
-color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 
-}
 
 
 .box-22{
@@ -156,49 +174,18 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 120%;
-/* or 22px */
+
 letter-spacing: -0.02em;
 color: #000000;
-/* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
     
 }
 
-.box-13{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
 
 
-position: absolute;
-width: 307.81px;
-height: 111px;
-left: 8px;
-top: 317px;
-
-background: #FFFFFF;
-border-radius: 10px;
-}
-
-.info-1{
-position: absolute;
-width: 218px;
-height: 69px;
-left:44.91px;
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 128.2%;
-color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-}
 
 
 .box-23{
@@ -229,8 +216,16 @@ font-weight: 700;
 font-size: 18px;
 line-height: 128.2%;
 color: #000000;
-/* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
+} */
+
+@media screen and (max-width: 1096px) {
+    .page1{
+        flex-direction: column;
+    }
+
+   
+
 }

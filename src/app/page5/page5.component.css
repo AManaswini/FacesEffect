@@ -1,108 +1,90 @@
 .page5{
-position: absolute;
-width: 845px;
-height: 80px;
-left: 50px;
-top: 4855px;
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 61px;
-color: #000000;
+
+width: 100%;
+
 
 }
+.text{
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
 
+    color: #000000;
+    margin:0 25px;
+    
+}
 body{
     background: #E5E5E5;
 }
-.ell1{
-position: absolute;
-width: 85px;
-height: 83.21px;
-left: 285px;
-top: 175px;
+
+.images{
+    display: flex;
+    flex-direction: row;
+    margin:100px 20vw;
 }
 
-.ell2{
-position: absolute;
-width: 85px;
-height: 83.21px;
-left: 545px;
-top: 175px;
+.image1{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background: url("../../assets/Ellipse 3.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+
+    padding:0 25px;
+
 }
 
-.ell3{
-position: absolute;
-width: 85px;
-height: 83.21px;
-left: 812px;
-top: 175px;
-}
 
-.ell4{
-position: absolute;
-width: 85px;
-height: 83.21px;
-left: 1081px;
-top: 175px;
+
+
+.img1{
+
+width: 63.5px;
+height: 75.86px;
+
 }
 
 .img1{
-position: absolute;
-width: 63.5px;
-height: 75.86px;
-left: 296px;
-top: 175px; 
-}
 
-.img1{
-position: absolute;
 width: 63.5px;
 height: 75.86px;
-left: 296px;
-top: 175px;
+
 }
 
 .img2{
-position: absolute;
+
 width: 68px;
 height: 60px;
-left: 553px;
-top: 187px;
 }
 
 .img3{
-position: absolute;
+
 width: 68px;
 height: 58px;
-left: 820px;
-top: 190px;   
+
 }
 
 .img4{
-position: absolute;
+
 width: 80px;
 height: 70px;
-left: 1083px;
-top: 181px;
+
 }
 
 .text1{
-position: absolute;
+
 height: 171px;
-left: 209px;
-right: 15.69%;
-top: 277.65px;
-width: 223px;
+width: 8vw;
 font-family: TradeGothic;
 font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 34px;
+font-weight: 800;
+font-size: 1.5vw;
 text-align: center;
 letter-spacing: -0.25px;
 color: #000000;
+
 }
 
 .span1,.span2,.span3,.span4{
@@ -112,15 +94,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 34px;
 /* or 212% */
-text-align: center;
+
 letter-spacing: -0.25px;
 }
 
 .text2{
-position: absolute;
-height: 102px;
-left: 500px;
-top: 277.65px;
 font-family: TradeGothic;
 font-style: normal;
 font-weight: 700;
@@ -132,12 +110,7 @@ color: #000000;
 }
 
 .text3{
-position: absolute;
-height: 68px;
-left: 728px;
-right: 11.08%;
-top: 277.65px;
-width:258px;
+
 font-family:  TradeGothic;
 font-style: normal;
 font-weight: 700;
@@ -149,12 +122,7 @@ color: #000000;
 }
 
 .text4{
-position: absolute;
-width:268px;
-height: 68px;
-left: 980px;
-right: 12.08%;
-top: 277.65px;
+
 font-family: TradeGothic;
 font-style: normal;
 font-weight: 700;
@@ -166,15 +134,16 @@ color: #000000;
 }
 
 .final-text{
-position: absolute;
-width: 1330px;
+
 height: 87px;
-left: 50px;
-top: 436px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
 font-family:TradeGothic;
 font-style: normal;
 font-weight: 500;
-font-size: 36px;
-line-height: 38px;
+font-size: 2vw;
+
 color: #000000;
 }
