@@ -32,6 +32,7 @@ body{
     width: auto;
     height: auto;
     margin: 25px;
+    background-image: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("../../assets/conny-schneider.jpg");
     /* background: linear-gradient(rgba(255,255,255,.03), rgba(255,255,255,.03)), url(../../assets/conny-schneider.jpg); */
     
     /* background: url("../../assets/Artboard 1 2.png");
