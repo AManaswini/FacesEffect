@@ -1,5 +1,6 @@
 .page5{
     width: 100%;
+    margin: 5% 0;
 }
 .text{
     font-family: TradeGothic;
@@ -7,7 +8,8 @@
     font-weight: 700;
     font-size: 4vw;
     color: #000000;
-    margin:0 25px;
+    margin:20px 25px;
+
 }
 body{
     background: #E5E5E5;

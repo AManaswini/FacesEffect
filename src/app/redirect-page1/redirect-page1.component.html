@@ -1,111 +1,168 @@
 <div class="page1">
-    <img class="imgg1" src="../../assets/Group 1535.png">
+
     <div class="text1">
-        Communication<br>Gap
+        <div class="text-in-box">Communication<br>Gap</div>
     </div>
-    <img class="img1" src="../../assets/facevectorgraphic.png">
-    
-    <div class="text2">
-        We knew a face<br>mattered, but we<br>weren’t sure why 
+    <div class="facevectorimage">
+        
+        <div class="text2">
+            <div class="img-text">We knew a face<br>mattered, but we<br>weren’t sure why </div>
+        </div>
+       
     </div>
-    <img class="img2" src="../../assets/human ai con better 1.png">
+    <div class="img2"></div>
     <div class="text3">
         We needed a way for humans to <span style="color:brown">communicate</span><br>with the algorithm 
     </div>
-    <div class="sol1">
-        Solution 1: Gradients
+    <!-- Beginning of solution -->
+    <div class="solution1">
+        <div class="sol1-desc">
+            <div class="sol1">
+                Solution 1: Gradients
+            </div>
+            <div class="sol11">
+                A common way to solve this is to use<br>gradients. Gradients tell us which<br>pixels matter. 
+            </div>
+        </div>
+        <div class="image-desc">
+            <div class="sol1-image">
+                <img class="cat" src="../../assets/cat.png">
+                <img class="cat" src="../../assets/gradient.png">
+            </div>
+            <div class="content">
+                On the left, you see an image of a cat. On the right, you see a<br>gradient of the pixels that matter for defining an image of a cat.
+            </div>
+        </div>
     </div>
-    <div class="sol11">
-        A common way to solve this is to use<br>gradients. Gradients tell us which<br>pixels matter. 
+    <div class="sol1-exp">
+        <div class="sol1-desc">
+            <div class="sol11">
+                However, facial features are<br>composite. They don’t just exist in<br>one place. So, this approach did not<br>help us communicate.
+            </div>
+        </div>
+        <div class="image-desc">
+            <div class="sol1-image">
+                <img class="cat" src="../../assets/human.png">
+                <img class="cat" src="../../assets/gradient2.png">
+            </div>
+            <div class="content"> 
+                On the left, you see a human mugshot. On the right, you see a<br>gradient of what pixels matter for the algorithm's prediction.
+            </div>
+        </div>
     </div>
-    <img class="cat" src="../../assets/cat.png">
-    <img class="gradient" src="../../assets/gradient.png">
-    <div class="content">
-        On the left, you see an image of a cat. On the right, you see a<br>gradient of the pixels that matter for defining an image of a cat.
+    <div class="facevector" ></div>
+    <!---solution2-->
+    <div class="solution2">
+        <div class="sol2">
+            Solution 2: Morph<br>Pixels 
+        </div>
+        <div class="sol2-desc">
+            <div class="sol2-left">
+                <div class="sol22">
+                    Humans are good at recognizing<br>differences between two similar<br>objects. We could try to morph<br>the face along the gradient and<br>see what changes.
+                </div>
+                <div class="sol-desc">
+                    Morphing along the gradient<br>produced a morphed <span style="font-weight:bold;">image</span>.We<br>need a morphed <span style="font-weight:bold;">face</span> in order to<br>compare.
+                </div>
+            </div>
+            <div class="solution-right">
+                <img class="img3" src="../../assets/Artboard 1 7.png">
+            
+            </div>
+                
+        </div>
+        
     </div>
-    <div class="text4">
-        However, facial features are<br>composite. They don’t just exist in<br>one place. So, this approach did not<br>help us communicate.
-    </div>
-    <img class="human" src="../../assets/human.png">
-    <img class="gradient2" src="../../assets/gradient2.png">
-    <div class="text5"> 
-        On the left, you see a human mugshot. On the right, you see a<br>gradient of what pixels matter for the algorithm's prediction.
-    </div>
-    <img class="facevector" src="../../assets/face vector graphic blend 4.png">
-    <div class="sol2">
-        Solution 2: Morph<br>Pixels 
-    </div>
-    <div class="sol22">
-        Humans are good at recognizing<br>differences between two similar<br>objects. We could try to morph<br>the face along the gradient and<br>see what changes.
-    </div>
-    <div class="sol-desc">
-        Morphing along the gradient<br>produced a morphed <span style="font-weight:bold;">image</span>.We<br>need a morphed <span style="font-weight:bold;">face</span> in order to<br>compare.
-    </div>
-    <img class="img3" src="../../assets/Artboard 1 7.png">
     <div class="text6">
         We built a GAN to generate synthetic mugshots. This way, the algorithm<br>could learn what a "face" is in this context and keep its morphs consistent<br>with its definition of a face.
 
     </div>
-
-    <img class="human1" src="../../assets/human1.png">
-    <img class="human2" src="../../assets/human2.png">
-    <img class="human3" src="../../assets/human3.png">
-    <img class="human4" src="../../assets/human4.png">
-
-    <img class="bg" src="../../assets/unsplash 4.png">
-    <img class="human5" src="../../assets/img_240_a.png">
-    <img class="human6" src="../../assets/img_240_b.png">
-    <div class="sol3">
-        Solution 3: Morph<br>Faces
-    </div>
-    <div class="sol31">
-        Now, we could morph into a new<br>face and compare what changed at a<br>low/high release probability. 
-    </div>
-    <div class="text111">
-        We asked random subjects to identify the difference 
-    </div>
-    <div class="text112">
-        Were the subjects right?
-    </div>
-    <div class="text113">
-        We had the subjects rate how well<br>groomed a set of real mugshots<br>were. Then we checked whether<br>those ratings predicted judge<br>choices. 
-    </div>
-    <div class="text114">
-        Subjects identified several<br>differences between the morphed<br>faces. We labeled real mugshots<br>with those different facial features<br>and checked to see whether the<br>features were predictive. They were,<br>and dramatically so.
-    </div>
-    <div class="blue-box">
-    </div>
-    <img class="blue-box-tail" src="../../assets/Vectortail.png">
-    <div class="blue-box-text">
-        Full-faced<br>
-        Tired eyes<br>
-        Amount of facial hair<br>
-        Skin tone<br>
-        Well-groomed <br>
-        Hair non-specific<br> 
-        Image quality<br>
-        Mouth<br>
-        Skin-clarity<br>
-        Age<br>
+    <div class="imageset">
+        <div class="imageset1">
+            <img class="human1" src="../../assets/human1.png">
+            <img class="human2" src="../../assets/human2.png">
+        </div>
+        <div class="imageset2">
+            <img class="human3" src="../../assets/human3.png">
+            <img class="human4" src="../../assets/human4.png">
+        </div>
     </div>
 
-    <div class="blue-box-2"></div>
-    <div class="blue-box-2-text">
-        Fullest to thinnest face<br>had a 
-    </div>
-    <div class="percent">
-        30%
-    </div>
-    <div class="blue-box-2-text-2">
-        difference in overall detention rate
+
+    <!--solution3-->
+    <div class="solution3">
+        <div class="sol3-desc">
+            <div class="sol3-left">
+                <img class="human5" src="../../assets/img_240_a.png">
+                <img class="human6" src="../../assets/img_240_b.png">
+            </div>
+            <div class="sol3-right">
+                <div class="sol3">
+                    Solution 3: Morph<br>Faces
+                </div>
+                <div class="sol31">
+                    Now, we could morph into a new<br>face and compare what changed at a<br>low/high release probability. 
+                </div>
+            </div>
+        </div>
+        <div class="text111">
+            We asked random subjects to identify the difference 
+        </div>
+        <div class="text112">
+            Were the subjects right?
+        </div>
+        <div class="subjects">
+            <div class="subjects-text">
+                <div class="text113">
+                    We had the subjects rate how well<br>groomed a set of real mugshots<br>were. Then we checked whether<br>those ratings predicted judge<br>choices. 
+                </div>
+                <div class="text114">
+                    Subjects identified several<br>differences between the morphed<br>faces. We labeled real mugshots<br>with those different facial features<br>and checked to see whether the<br>features were predictive. They were,<br>and dramatically so.
+                </div>
+            </div>
+            <div class="arrow-box">
+
+                <div class="blue-box-text">
+                    Full-faced<br>
+                    Tired eyes<br>
+                    Amount of facial hair<br>
+                    Skin tone<br>
+                    Well-groomed <br>
+                    Hair non-specific<br> 
+                    Image quality<br>
+                    Mouth<br>
+                    Skin-clarity<br>
+                    Age<br>
+                </div>
+                <img class="blue-box-tail" src="../../assets/Vectortail.png">
+            </div>
+        </div>
+        <div class="bb-2">
+            <div class="blue-box-2">
+
+                <div class="blue-box-2-text">
+                    <div class="blue-line-1">
+                        Fullest to thinnest face had a 
+                    </div>
+                    <div class="percent">
+                        30%
+                    </div>
+                </div>
+
+                <div class="blue-box-2-text-2">
+                    difference in overall detention rate
+                </div>
+            </div>
+            
+        </div>
     </div>
     <div class="text-final">
         Well-groomed (or full-faced) is only part of the story. More research needs<br>to be done to improve our method. In addition, this method can be applied<br>in other domains to help us develop new hypotheses in partnership with<br>algorithms.
     </div>
-    <button class="btn">
-       <a href=""><div class="btn-text">Back to Main</div></a>
-            
-      
-    </button>
+    <div class="mainbutton">
+        <button class="btn">
+        <a href="" style="text-decoration: none;"><div class="btn-text">Back to Main</div></a>
+        </button>
+    </div>
 </div>
-<app-foote2></app-foote2>
+<app-footer></app-footer>

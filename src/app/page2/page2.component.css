@@ -58,17 +58,16 @@ background: #E5E5E5;
   font-style: normal;
   font-weight: 500;
   font-size: 2vw;
-  line-height: 25px;
   color: #000000;
 }
 
 @media screen and (max-width: 650px){
-  .percent{
+  /* .percent{
     font-size: 5vw;
   }
   .t1{
     font-size: 2.5vw;
-  }
+  } */
   .empty{
     display: none;
   }
