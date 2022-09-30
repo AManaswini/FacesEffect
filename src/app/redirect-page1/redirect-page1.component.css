@@ -303,8 +303,9 @@ color: #000000;
 }
 
 .text6{
-margin-top:50vh;
-margin-left:40px;
+margin-top:15vh;
+margin-left:2vw;
+margin-bottom: 5vh;
 font-family: TradeGothic;
 font-style: normal;
 font-weight: 500;
@@ -316,8 +317,10 @@ color: #000000;
 .imageset{
     display: flex;
     flex-direction: row;
-   justify-content: space-around;
+
     margin-top:20px;
+    margin-left:2%;
+    margin-right: 2%;
 
 }
 
@@ -579,10 +582,16 @@ line-height: 31px;
 .img3{
     width: 100%;
 }
-.human1,.human2,.human3,.human4,.human5,.human6{
-    width: 30%;
+.human1,.human2,.human3,.human4{
+    width: 40%;
     height:auto;
     margin: 0px auto;
+}
+
+.human5,.human6{
+    width: 40%;
+    height:auto;
+    margin: 0px 0px;
 }
 @media screen and (max-width: 650px) {
 .solution2{
@@ -604,10 +613,6 @@ line-height: 31px;
 .solution-left{
     width:65%;
 
-}
-
-.text6{
-    margin:5px;
 }
 
 .imageset{
