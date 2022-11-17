@@ -124,7 +124,7 @@ body{
     display: flex;
     flex-direction: row;
     margin: 25px 0px;
-    margin-top: 50vh;
+    
 }
 .facial-bias-text{
     width: 45%;

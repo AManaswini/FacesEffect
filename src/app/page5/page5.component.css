@@ -125,14 +125,13 @@ body{
 .final-text{
     height: 87px;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    text-align: left;
     font-family:TradeGothic;
     font-style: normal;
     font-weight: 500;
     font-size: 2vw;
     color: #000000;
+    margin: 0 25px;
 }
 
 
