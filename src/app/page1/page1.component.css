@@ -1,9 +1,7 @@
 .page1{
-width:100%;
-display: flex;
-flex-direction: row;
-
-
+    width:100%;
+    display: flex;
+    flex-direction: row;
 }
 .text{
     width:50%;
@@ -44,72 +42,71 @@ body{
 }
 
 .box-11{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 95%;
-height: 247px;
-margin: 5px auto;
-background: #FFFFFF;
-border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 247px;
+    margin: 5px auto;
+    background: #FFFFFF;
+    border-radius: 16px;
 }
 
 .box-12{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 5px auto;
-width: 95%;
-height: 42px;
-background: #FFFFFF;
-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    width: 95%;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .box-13{
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 5px auto;
-width: 95%;
-height: 111px;
-background: #FFFFFF;
-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    width: 95%;
+    height: 111px;
+    background: #FFFFFF;
+    border-radius: 10px;
 }
 .decision-1{
-width: 95%;
-height: 26px;
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 700;
-font-size: 1vw;
-line-height: 120%;
-/* or 22px */
-letter-spacing: -0.02em;
-color: #000000;
-text-align: center;
-/* Inside auto layout */
+    width: 95%;
+    height: 26px;
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 120%;
+    /* or 22px */
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: center;
+    /* Inside auto layout */
 
 }
 
 .info-1{
 
-width: 95%;
-height: 69px;
-
-font-family: TradeGothic;
-font-style: normal;
-font-weight: 800;
-font-size: 1vw;
-line-height: 128.2%;
-color: #000000;
-text-align: center;
-/* Inside auto layout */
+    width: 95%;
+    height: 69px;
+    font-family: TradeGothic;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1vw;
+    line-height: 128.2%;
+    color: #000000;
+    text-align: center;
+    /* Inside auto layout */
 
 }
 
 
 .unknown{
-height: auto;
+    height: auto;
 }
 
 /* .box-2{

@@ -223,7 +223,6 @@ body{
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-
     color: #000000;
 
 }
@@ -236,7 +235,6 @@ body{
     font-size: 2vw;
     line-height: 40px;
     text-align: center;
-
     color: #000000;
 
 }
@@ -250,9 +248,7 @@ body{
     line-height: 30px;
     /* identical to box height */
     margin: 0px 10px;
-
     text-align: center;
-
     color: #000000;
 }
 
